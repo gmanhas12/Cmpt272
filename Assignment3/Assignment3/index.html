@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <link rel="stylesheet" href="/pig.css">
+</head>
+<body>
+    <table class="piggyTable" id = "pigTable">
+        <tr>
+          <th>Name </th>
+          <th> Category</th>
+        </tr>
+      <tbody id="pigInfo"></tbody>
+    </table>
+  <form id="addForm" class="form">
+      <label for="name">Name</label>
+      <input type="text" maxlength="10" placeholder="Enter Name" id ="name"><br>
+      <label for="height">Height (Hocks)</label>
+      <input type="number" maxlength="2" placeholder="Enter Height(Hocks)" id ="height"><br>
+      <label for="weight">Weight (Stones)</label>
+      <input type="number" maxlength="3" placeholder="Enter Weight(Stones)" id ="weight"><br>
+      <label for="breed">Breed</label>
+      <select name="breed" placeholder="Select an Option"id="breed">
+        <option value="" disabled selected hidden>Select an Option</option>
+        <option value="Alfa">Alfa</option>
+        <option value="Bravo">Bravo</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Delta">Delta</option>
+        <option value="Echo">Echo</option>
+        <option value="Foxtrot">Foxtrot</option>
+        <option value="Hotel">Hotel</option>
+        <option value="India">India</option>
+      </select>  
+      <br>
+      <label for="personality">Personality</label>
+      <select name="personality" placeholder="Select an Option" id="personality">
+        <option value="" disabled selected hidden>Select an Option</option>
+        <option value="Terrible">Terrible</option>
+        <option value="Bad">Bad</option>
+        <option value="Good">Good</option>
+        <option value="Great">Great</option>
+        <option value="Amazing">Amazing</option>
+        <option value="Lazy">Lazy</option>
+        <option value="Fat">Fat</option>
+        <option value="Adventerous">adventerous</option>
+        <option value="Brave">Brave</option>
+        <option value="Loyal">Loyal</option>
+      </select><br>
+      <label for="category">Category</label>
+      <select name="category"placeholder="Select an Option" id="category">
+        <option value="" disabled selected hidden>Select an Option</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="grey">Grey</option>
+        <option value="chestnut">Chestnut</option>
+      </select><br>
+    </form>
+    <button id="submit">Submit</button>
+  <table class="pigTable" id="info"></table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.47/system.js"
+  integrity="sha512-mkBpeD76fJnxFHGZstCL0mPCW6E3RFtUzfp5Ye8oQg2rxQNHy4BgHsbmvSizsq3fgF4PGozPI1BzGCB/h1Yq5g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    System.defaultJSExtensions = true;
+    System.import('main');
+  </script>
+</body>
+</html>

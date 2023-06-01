@@ -1,0 +1,180 @@
+body{
+    background-color: #EDEFF1;
+    position: relative;
+}
+#header{
+    background-color:#3A474E;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color:#FBFBFB;
+    
+}
+header{
+    position: relative;left: 10px;
+}
+#menuBtn{
+    width: 27px;
+    position: fixed;
+    right: 35px;
+    top: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.redText{
+    color:#E7754D;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+p{
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    
+}
+
+#menu{
+ position:relative;left:750px; bottom: 480px;
+ font-family: sans-serif;
+}
+
+ul{
+    font-size: 27px;
+    position: relative;left:65px;
+    color:black;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+a:link{
+    color: #8C3330
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited{
+    color: #8C3330;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+
+.text1 {
+    display: none;
+}
+
+
+.link1:hover + .text1 {
+    display: block;
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+
+}  
+
+.text2 {
+    display: none;
+}
+      
+.link2:hover + .text2 {
+    display: block;
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}  
+
+.second{
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-left: 60px;
+}
+
+.third{
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-left: 60px;
+    
+}
+
+.fourth{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.fifth{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+
+
+/* for under 550px */
+@media (max-width: 1173px){
+    #menu{
+        right: 0;
+        left: 650px;
+        overflow-y:visible;
+    }
+    
+}
+
+
+@media (max-width: 1072px){
+    #menu{
+        right: 0;
+        left: -4px;
+        top: 0px;
+        bottom: -4px;
+        overflow-y:visible;
+    }   
+}
+
+@media (max-width: 550px){
+    #menu{
+        right: 0;
+        left: -4px;
+        top: 0px;
+        bottom: -4px;
+        overflow-y:visible;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+    h2{
+        font-size: 35px;
+    }
+    ul{
+        font-size: 22px;
+    }
+    #header{
+        font-size: 40px;
+    }
+        
+}
